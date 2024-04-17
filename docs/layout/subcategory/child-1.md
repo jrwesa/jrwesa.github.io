@@ -11,3 +11,6 @@ This page is a child page and will have its own child page. [Link](/docs/layout/
 A link to the [same level](/docs/layout/subcategory/child-2.md). 
 
 Trying to [link](../layout.md#layout-header) to a header. 
+
+link to file [\test.m](https://github.com/just-the-docs/just-the-docs/blob/main/_sass/support/_variables.scss)
+
