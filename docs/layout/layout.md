@@ -1,5 +1,5 @@
 ---
-title: Layout Child Page
+title: Layout
 layout: default
 nav_order: 2
 has_children: true
