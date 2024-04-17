@@ -1,5 +1,5 @@
 ---
-title: First Child Page
+title: Second Child Page
 layout: default
 nav_order: 2
 parent: Layout
