@@ -10,3 +10,5 @@ has_chidren: true
  A link to the [same level](/docs/layout/subcategory/child-2.md)
 
  Clik this [link](/assets/linked-files/test.m)
+
+ Trying to [link](../layout.md#layout-header)
