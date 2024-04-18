@@ -6,37 +6,88 @@ description: Example Site
 permalink: /
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# Test Site
+{: .no_toc }
 
-# Header 1
+An easier way to manage documenation — from version conrol to accessibility. 
+{: .fs-6 .fw-300 }
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+## The Key Benefits
+{: .no_toc }
 
-More specifically, the created site:
+- Copy is written in Markdown, a language that can learned by anyone 
+- Site contents are converted into .html via a [Jekyll-based](https://jekyllrb.com/) Static Site Generator (SSG)
+- Site can be previewed and utilizes git version control (hosted via Github Pages)
+- All information is easier searchable. Try it above, at the top of the page
+- **Best of all**: It's free. 
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
 
-## Header 1.1
+Use the built-in navigation menu to the left of the page. This menu is made up of all the individual Markdown files in the git repo for this site. The cascading child and grandchild navigation links are defined in the **front matter** of each Markdown file. 
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+---
+## Table of Contents
+{: .no_toc .text-delta }
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+1. TOC
+{:toc}
 
-To get started with creating a site, simply:
+---
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+## Getting Started
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+To display code syntax, no images or strenuous formatting is needed. Surround a word with `back quotes` and it will appear with code-like syntax.
 
-----
+Similarly, you can introduce code blocks by surrounding entire paragraphs/blocks of code by three back quotes:
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+```
+Syntax is okay
+cd your-repository
+```
+Still, there will be times where you want to insert an image, like this: 
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+![image](assets\images\fenced-code.png)
+
+
+## Additional Ways to Represent Data
+
+Author can create tables with Markdown syntax, too. This is done with hyphens and pipes 
+
+
+|Inputs|Outputs|
+|----|----|
+|Hello|Goodbye|
+|Next|After|
+|Number|Word|
+
+If you want a reader to have more information and reference matter from you site, you can utilize footnotes [^1] anywhere. Plus, you can add as many as you want [^2]
+
+
+
+### Highlight Text
+
+There are methods to highlight text, too. Some Markdown platforms support "==hello==" on both sides of a word as highlighter syntax. However, not all platforms support that. So, you can use the `<mark>hello</mark>` syntax to highlight text as well. Example: <mark>hello</mark> 
+
+
+### Create a Checklist
+— and, apparently, you can create a task list with brackets and the letter "x"
+
+- [x] Create git repo
+- [ ] Clone remote repo with version control client[^3]
+- [x] Start managing your project with version control[^4]
+
+This line is for the fifth footnote[^5]
+
+
+
+---
+[^1]: Here's my footnote. 
+[^2]: Second footnote. 
+[^3]: Check out the third footnote; they're now seperated from the body copy with a horizontal line; tab in (indent) bullet points to continue your footnote.
+    * hello
+    * goodbye
+
+[^4]: May the <mark>FOURTH</mark> footnote be with you
+    - these are hyphens
+    - do they work to continue footnote? Yes, they do!
+
+[^5]: If you include bullet points in your Markdown file, put an extra line space between footnotes to make sure they are correctly formatted

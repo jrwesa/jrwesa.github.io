@@ -7,9 +7,3 @@ has_children: true
 ---
 
 This page is a child page and will have its own child page. [Link](/docs/layout/layout) back to Layout parent page.
-
-A link to a .md [file/page](/index) with no .md
-
-A link to a .md [file/page](/docs/layout/subcategory/child-2)
-
-A link to a .md file [header](/index#header-1) with `/index#header-1`
