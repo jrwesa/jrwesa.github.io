@@ -17,10 +17,8 @@ Reference the table *below* for how to common ways to link content and their Mar
 
 | Linking | Description & Syntax |
 |:---------------|:------------------|
-| Link Page | [Link to another page](/docs/layout/subcategory/subcategory-child) with the syntax that follows: `[Link to another page](/)` |
-| Link Heading | [Link to another heading](layout/layout#additional-learning) requires the syntax that follows: `[Link to another header](#number--capture-figure)` |
-
-I want to link to [THIS CONTENT](/docs/layout/subcategory/subcategory) here.
+| Link Page | [Link to another page](/docs/layout/subcategory/child-1) with the syntax that follows: `[Link to another page](/)` |
+| Link Heading | [Link to another heading](/index#highlight-text) requires the syntax that follows: `[Link to another header](#number--capture-figure)` |
 
 
 ## Refer to File
