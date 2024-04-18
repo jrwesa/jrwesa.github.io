@@ -6,7 +6,7 @@ parent: Layout
 has_chidren: true
 ---
 
-This page is a child page and will have its own child page. [Link](/docs/layout/layout.md) back to Layout parent page.
+This page is a child page and will have its own child page. [Link](/docs/layout/layout) back to Layout parent page.
 
 A link to a .md [file/page](/index) with no .md
 
